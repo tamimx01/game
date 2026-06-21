@@ -45,7 +45,7 @@ export class Player {
     const loader = new GLTFLoader();
 
     // 📌 আপনার মডেলের ফাইলের নাম নিচে দিন
-    const MODEL_PATH = 'models/Wailk.glb';
+    const MODEL_PATH = 'models/Soldier.glb';
 
     try {
       const gltf = await loader.loadAsync(MODEL_PATH);
