@@ -44,7 +44,7 @@ export class Player {
     // ── আপনার দুটো মডেল ফাইল এখানে রেফার করুন
     //    models/ ফোল্ডারে রাখুন তারপর path দিন
     //    যেমন: 'models/Model.glb'  বা  'models/Wailk.glb'
-    const MODEL_PATH = 'models/Wailk.glb';  // ← এখানে আপনার ফাইলের নাম দিন
+    const MODEL_PATH = 'models/Soldier.glb';  // ← এখানে আপনার ফাইলের নাম দিন
 
     try {
       const gltf = await loader.loadAsync(MODEL_PATH);
